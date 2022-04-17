@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | StanMaJy Tourist</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/external.css">
+
+    <!-- Custom style -->
+    <link href="../css/external.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ======================= Start Navigation ===================== -->
+    <nav class="navbar Stan-navbar-default navbar-mobile navbar-fixed light bootsnav"
+        style="background-color: #075f73;">
+        <div class="container">
+
+            <!-- Start Logo Header Navigation -->
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="index.html" style="padding: 0%; margin: 0;">
+                    <img src="../images/logo.png" alt="">
+
+                </a>
+
+            </div>
+            <!-- End Logo Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="navbar">
+    
+                <div id="gallery_button"><a id="gallery_text" class="hover" href="gallery.html">GALLERY</a></div>
+                <div id="book_now_button"><a id="book_now_text" class="hover" href="book_now.html">BOOK NOW</a></div>
+                <div id="about_us_button"><a id="about_us_text" class="hover" href="about_us.html">ABOUT US</a></div>
+                <div id="home_button"><a id="home_text" class="hover" href="../index.html">HOME</a></div>
+            </div>
+            <!-- /.navbar-collapse -->
+
+        </div>
+    </nav>
+    <!-- ======================= End Navigation ===================== -->
+
+    <!-- ======================= Start Banner ===================== -->
+    <section class="Stan-page-title-banner" style="background-image:url(../images/banner.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="Stan-tr-list-detail">
+                    <div class="Stan-tr-list-thumb">
+                        <img src="../images/stanley.jpg" class="img-responsive img-circle" alt="" />
+                    </div>
+                    <div class="Stan-tr-list-info">
+                        <h4>Fascinating View</h4>
+                        <p>of Previous Tours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- ======================= End Banner ===================== -->
+
+    <!-- ======================= Start Detail Header ===================== -->
+    <section class="Stan-profile-header-nav Stan-padd-0 Stan-bb-1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-8 col-sm-8">
+                    <div class="tab" role="tabpanel">
+                        <!-- Nav Stan-tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#Photos" role="tab" data-toggle="tab"><i class="ti-gallery"></i>Photos</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ======================= End Detail Header ===================== -->
+
+    <!-- ======================= Start Detail ===================== -->
+    <section class="tr-single-detail gray-bg">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+                    <div class="tab-content Stan-tabs">
+
+                        <!-- ============ Photos =================== -->
+                        <div role="tabpanel" class="tab-pane fade in active" id="Photos">
+                            <div class="row">
+                                <div class="Stan-tr-single-box">
+                                    <div class="Stan-tr-single-header">
+                                        <h4><i class="ti-gallery"></i>All Gallery</h4>
+                                    </div>
+                                    <div class="Stan-tr-single-body">
+                                        <ul class="Stan-gallery-list">
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/IMG-20220415-WA0002.jpg">
+                                                    <img src="../images/tourism/IMG-20220415-WA0002.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+											<li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/lagos-city-nigeria-image.jpg">
+                                                    <img src="../images/tourism/lagos-city-nigeria-image.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+											<li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/IMG-20220415-WA0001.jpg">
+                                                    <img src="../images/tourism/IMG-20220415-WA0001.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+											
+											<li>
+                                                <a data-fancybox="gallery" href="../images/tourism/zuma-rock.jpg">
+                                                    <img src="../images/tourism/zuma-rock.jpg" class="img-responsive"
+                                                        alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/yankari-game-reserve-1024x683.jpg">
+                                                    <img src="../images/tourism/yankari-game-reserve-1024x683.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/lekki-conservation-centre-OPARABOY.jpg">
+                                                    <img src="../images/tourism/lekki-conservation-centre-OPARABOY.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery" href="../images/tourism/Obudu-Ranch.jpg">
+                                                    <img src="../images/tourism/Obudu-Ranch.jpg" class="img-responsive"
+                                                        alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery" href="../images/tourism/nike4.jpg">
+                                                    <img src="../images/tourism/nike4.jpg" class="img-responsive"
+                                                        alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery" href="../images/tourism/kajuru11.jpg">
+                                                    <img src="../images/tourism/kajuru11.jpg" class="img-responsive"
+                                                        alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery" href="../images/tourism/kano2.jpg">
+                                                    <img src="../images/tourism/kano2.jpg" class="img-responsive"
+                                                        alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/igbo-ukwu-museum.jpg">
+                                                    <img src="../images/tourism/igbo-ukwu-museum.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/Osun-sacred-grove.jpg">
+                                                    <img src="../images/tourism/Osun-sacred-grove.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/IMG-20220414-WA0005.jpg">
+                                                    <img src="../images/tourism/IMG-20220414-WA0005.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/IMG-20220414-WA0004.jpg">
+                                                    <img src="../images/tourism/IMG-20220414-WA0004.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/IMG-20220417-WA0003.jpg">
+                                                    <img src="../images/tourism/IMG-20220417-WA0003.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/IMG-20220417-WA0004.jpg">
+                                                    <img src="../images/tourism/IMG-20220417-WA0004.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/Jyoti.jpg">
+                                                    <img src="../images/tourism/Jyoti.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-fancybox="gallery"
+                                                    href="../images/tourism/Jyoti3.jpg">
+                                                    <img src="../images/tourism/Jyoti3.jpg"
+                                                        class="img-responsive" alt="">
+                                                </a>
+                                            </li>
+                                
+                                            
+                                        </ul>
+										
+										<div class="stanvideos">	
+                                            
+                                                <iframe class="Stan-youtube-video"
+                                                    src="https://www.youtube.com/embed/-GzapCUY1yc?loop=1"
+                                                    ></iframe>
+                                            
+										</div>
+										<div class="stanvideos">
+											
+                                                <iframe class="Stan-youtube-video"
+                                                    src="https://www.youtube.com/embed/o1OXbhvxeTI?loop=1"
+                                                    ></iframe>
+                                            											
+										</div>
+										<div class="stanvideos">
+                                            
+                                                <iframe class="Stan-youtube-video"
+                                                    src="https://www.youtube.com/embed/N82_0gaKs8U?loop=1"
+                                                    ></iframe>
+                                            
+										</div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- ======================= End Detail ===================== -->
+
+    <!-- ================= footer start ========================= -->
+   <div id="footer">
+		<div id="section1">
+		<p class="contact_us"> Contact us:</p>
+		<p class="contact_us"> Email: stanmajytour@tourism.ie</p>
+		<p class="contact_us"> Phone: +353 083 156 5335</p>
+		<p class="contact_us"> Address: O'connel St., N 1</p>
+		<p class="contact_us"> D01 E001</p>
+		</div>
+					
+		<div id="section2">
+		<p class="contact_us"> Follow us on</p>
+		
+		<a href="http://www.instagram.com"><img class="socialmediaimg left" src="../images/instagram.png" alt="instagram"></a>
+		<a href="http://www.facebook.com"><img class="socialmediaimg" src="../images/facebook.png" alt="facebook"></a>
+		<a href="http://www.twitter.com"><img class="socialmediaimg" src="../images/twitter.png" alt="twitter"> </a>
+		<a href="http://www.linkedin.com"><img class="socialmediaimg" src="../images/linkedin.png" alt="linkedin"> </a>
+						
+		<p id="copyright"> COPYRIGHT &copy; 2022</p>
+		</div>
+	</div>
+
+    <!-- =================== START JAVASCRIPT ================== -->
+    <script src="../plugins/js/jquery.min.js"></script>
+    <script src="../plugins/js/bootstrap-wysihtml5.js"></script>
+    <script src="../plugins/js/bootstrap.min.js"></script>
+
+    <script src="http://maps.google.com/maps/api/js?key="></script>
+
+    <script src="../js/stanley_map.js"></script>
+
+    <!-- Custom Js -->
+    <script src="../js/stanley_custom.js"></script>
+
+
+</body>
+
+</html>

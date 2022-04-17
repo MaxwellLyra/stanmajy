@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Book now page</title>
+	<link rel="stylesheet" type="text/css" href="../css/external.css">
+
+	<!--JavaScript-->
+	<script src =  "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+	</script>
+	<script src="../js/script.js"></script>
+
+</head>
+<body>
+
+	<!-- Container for whole page -->
+	<div class="jbookcontainer">
+
+		<!-- Navbar div -->
+		<div id="jnavbar">
+			<div id="logo"> <img class="jimg" src="../images/logo.png" alt="tourism"></div>
+			<div id="jgallery_button"><a id="jgallery_text" class="jhover" href="gallery.html">GALLERY</a></div>
+			<div id="jbook_now_button"><a id="jbook_now_text" class="jhover" href="book_now.html">BOOK NOW</a></div>
+			<div id="jabout_us_button"><a id="jabout_us_text" class="jhover" href="about_us.html">ABOUT US</a></div>
+			<div id="jhome_button"><a id="jhome_text" class="jhover" href="../index.html">HOME</a></div>		
+		</div> <!--Navbar div ends here-->
+
+		<!-- Div for bg image below navbar with heading -->
+		<div class="jbookheader">
+
+			<div class="jbookheader1">
+				<h2 class="jbooksubhead">MAKE YOUR TRAVEL EXPERIENCE AMAZING WITH US..</h2>
+			</div>
+
+			<div class="jbookheader2">
+				<form name="myForm" action="" onsubmit="return validateForm()" id="myForm" method="post">
+
+					<div class="jform_body">
+
+						<div class="jsection">
+						  <label for="fullname">Please Enter Your Name:</label>
+						  <label for="fullname">
+						    <input type="text" name="fullname" class="jinput" id="fullname" placeholder="Will Smith / Natalia Smith"> 
+						  </label>
+						</div>
+						               
+						  <div class="jsection">
+						    <label for="jemail">Email Address:</label>
+						    <label for="jemail">
+						      <input type="email" name="jemail" class="jinput" id="jemail" placeholder="StanMaJy@something.com">
+						    </label>
+						  </div>
+						   
+						  <div class="jsection">
+						    <label for="jtelephone">Telephone / Mobile:</label>
+						    <label for="jtelephone">
+						      <input type="text" name="jtelephone" class="jinput" id="jtelephone" placeholder="Telephone / Moble Number"> 
+						    </label>
+						  </div>
+						 
+						  <div class="jsection">
+						    <label for="jadults">Number of Travellers:</label>
+						    <label for="jadults">
+						      <input type="number" class="jinput" id="jadults" name="jadults" placeholder="Number of adults"> 
+						    </label>
+						  </div>
+
+						  <div class="jsection">
+						    <label for="jdestination">Choose your destination:</label>
+						    <label for="jdestination">
+						      <select class="jinput" id="jdestination" name="jdestination">
+						      	<option value="0.0">Choose:</option>
+						      	<option value="1.0">Brazil</option>
+						      	<option value="2.0">India</option>
+						      	<option value="3.0">Nigeria</option>
+						      </select>
+						    </label>
+						  </div>
+
+						  <div class="jsection">
+						    <label for="jdate1">Travel Date:</label>
+						    <label for="jdate1">
+						      <input type="date" class="jinput" id="jdate1" name="jdate1">
+						    </label>
+						  </div>
+						   
+						  <div class="jsection">
+						    <label for="jdate2">Return Date:</label>
+						    <label for="jdate2">
+						      <input type="date" class="jinput" id="jdate2" name="jdate2">
+						    </label>
+						  </div>
+						 
+						<div class="jsection">
+						  <label for="jcomment">Anything else we should know about?</label>
+						  <label for="jcomment">
+						    <textarea id="jcomment" class="jinput" name="jcomment" placeholder="Let us know about any special requirements"></textarea>
+						  </label>
+						</div>
+
+					</div> 
+
+					<div class="jform_footer">
+						<input type="submit" name="submit" id="submit" class="jsubmit" value="Confirm booking">
+						<input type="reset" class="jcancel" value="Cancel">
+					</div>
+					
+				</form>
+			</div> <!--jbookheader2 div ends here-->
+
+		</div><!--jbookheader div ends here-->
+
+		<!-- container div of all rating and all -->
+		<div class="jbookcontent">
+				<div class="jlogo1">
+					<img src="../images/jlogo1.png" class="jlogos">
+					<div class="jbookpara">100% trusted and Best price guaranteed</div>
+				</div>
+
+				<div class="jlogo1">
+					<img src="../images/jlogo2.png" class="jlogos">
+					<div class="jbookpara">We accept all types of currency for payment</div>
+				</div>
+
+				<div class="jlogo1">
+					<img src="../images/jlogo3.png" class="jlogos">
+					<div class="jbookpara">98% of our travellers loved our work</div>
+				</div>
+
+				<div class="jlogo1">
+					<img src="../images/jlogo4.png" class="jlogos">
+					<div class="jbookpara">Our dedicated support team is ready for help</div>
+				</div>
+
+		</div> <!--jcontent div ends here-->
+
+		<!-- footer of page -->
+		<div id="jfooter">
+				<div id="jsection1">
+				<p class="jcontact_us"> Contact us:</p>
+				<p class="jcontact_us"> Email: stanmajytour@tourism.ie</p>
+				<p class="jcontact_us"> Phone: +353 083 156 5335</p>
+				<p class="jcontact_us"> Address: O'connel St., N 1</p>
+				<p class="jcontact_us"> D01 E001</p>
+		</div>
+				
+		<div id="jsection2">
+			<p class="jcontact_us"> Follow us on</p>
+				
+			<a href="http://www.instagram.com"><img class="jsocialmediaimg left" src="../images/instagram.png" alt="instagram"></a>
+			<a href="http://www.facebook.com"><img class="jsocialmediaimg" src="../images/facebook.png" alt="facebook"></a>
+			<a href="http://www.twitter.com"><img class="jsocialmediaimg" src="../images/twitter.png" alt="twitter"> </a>
+			<a href="http://www.linkedin.com"><img class="jsocialmediaimg" src="../images/linkedin.png" alt="linkedin"> </a>
+								
+			<p id="jcopyright"> COPYRIGHT &copy; 2022</p>
+		</div>
+
+	</div> <!--JContainer-->
+
+</body>
+</html>

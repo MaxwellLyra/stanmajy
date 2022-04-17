@@ -1,0 +1,93 @@
+<!DOCTYPE html> <!-- HTML5 doctype -->
+
+<html lang="en"> <!-- HTML5 opening HTML tag with language. The HTML tag can also be used on it's own -->
+
+	<head>
+		
+		<meta charset="UTF-8"> <!-- HTML5 charset -->
+		
+		<meta name="viewport" content="width=device-width,  initial-scale=1.0">
+		<!--[if lte IE 9]> <script src="http://css3-mediaqueries-  js.googlecode.com/svn/trunk/css3-  mediaqueries.js"></script>
+		<![endif]-->
+
+		<link rel="stylesheet" href="../css/external.css"/>
+		<title>ABOUT US</title>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	
+	</head>
+
+	<body>
+			
+		<div id="navbar">
+				<div id="logo"> <img class="img" src="../images/logo.png" alt="tourism"></div>
+				<div id="gallery_button"><a id="gallery_text" class="hover" href="gallery.html">GALLERY</a></div>
+				<div id="book_now_button"><a id="book_now_text" class="hover" href="book_now.html">BOOK NOW</a></div>
+				<div id="about_us_button"><a id="about_us_text" class="hover" href="about_us.html">ABOUT US</a></div>
+				<div id="home_button"><a id="home_text" class="hover" href="../index.html">HOME</a></div>
+			</div>
+			
+		<div id="maxdiv1">
+			<h1 id="maxh1"> Get to know StanMaJy</h1>
+			
+			<p class="maxaup"> The history of StanMaJy began in 2020 when we, Stanley, Maxwell and Jyoti decided to create a company that would bring 
+			innovation and provide premium experiences on the same package.</p>
+			<br>
+			<p class="maxaup">Our mission is to deliver excellence in service and provide unique experiences through our custom-made travel 
+			packages, designed in according to your specific request. We have loyal and exceptional partners all over Brazil, 
+			India and Nigeria that along with us, provide all the resources for your vacation from your transportation until 
+			your stay and your personal travel agent.</p>
+			<br>
+			<p class="maxaup">Join us on this journey and allow us be part of the unforgettable memories we’re about to create!</p>
+			<br>
+		</div>	
+		
+		<div id="maxdivpic1">
+			<img class="maximg" src="../images/travel1.jpg" alt="viage_conosco">
+		</div>	
+		
+		<div id="maxdiv1_1">
+			<div id="max_about_us_left">
+				<img class="about_us_pics" src="../images/jyoti.png" alt="jyoti">
+				<p id="about_us_names"> Jyoti</p>
+			</div>
+			
+			<div id="max_about_us_middle">
+				<img class="about_us_pics" src="../images/maxwell.png" alt="maxwell">
+				<p id="about_us_names"> Maxwell</p>
+			</div>
+			
+			<div id="max_about_us_right">
+				<img class="about_us_pics" src="../images/stanley.png" alt="stanley">
+				<p id="about_us_names"> Stanley </p>
+			</div>
+			
+		</div>	
+	
+		<div id="footer">
+			<div id="section1">
+			<p class="contact_us"> Contact us:</p>
+			<p class="contact_us"> Email: stanmajytour@tourism.ie</p>
+			<p class="contact_us"> Phone: +353 083 156 5335</p>
+			<p class="contact_us"> Address: O'connel St., N 1</p>
+			<p class="contact_us"> D01 E001</p>
+			</div>
+						
+			<div id="section2">
+			<p class="contact_us"> Follow us on</p>
+			
+			<a href="http://www.instagram.com"><img class="socialmediaimg left" src="../images/instagram.png" alt="instagram"></a>
+			<a href="http://www.facebook.com"><img class="socialmediaimg" src="../images/facebook.png" alt="facebook"></a>
+			<a href="http://www.twitter.com"><img class="socialmediaimg" src="../images/twitter.png" alt="twitter"> </a>
+			<a href="http://www.linkedin.com"><img class="socialmediaimg" src="../images/linkedin.png" alt="linkedin"> </a>
+							
+			<p id="copyright"> COPYRIGHT &copy; 2022</p>
+			</div>
+		</div>
+			
+
+	</body>
+
+</html>
