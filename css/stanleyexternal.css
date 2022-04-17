@@ -107,9 +107,11 @@ COLOR PALETTE:
 	
 
 #heading1 { /*DIV WITH LANDSCAPE PICTURE*/
-		width:100%;
 		height:400px;
 		position: relative;
+        background-image: url("../images/plane.jpeg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
 		}
 		
 
@@ -165,7 +167,7 @@ COLOR PALETTE:
 	width:100%;
 	height:150px;
 	clear: both;
-	background-color: #075f73;
+	background-color: #734207;
 }
 
 .contact_us { /*CLASS TO EDIT CONTACT US TEXT*/
