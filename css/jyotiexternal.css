@@ -1,0 +1,194 @@
+
+
+#h1, #h2 { /*STYLING H1 AND H2*/
+		text-align: center;
+		margin: 2%;
+		color: white; 
+		font-family: font-family: 'Arimo', sans-serif;
+		}
+	
+p{font-family: 'Oswald', sans-serif;}
+.img { /*ALL IMAGES ON HOME PAGE WERE INSERTED INTO THIS CLASS TO FIT IMAGES INSIDE DIVS*/
+		width:100%;
+		height:100%;
+	}
+	
+.p {/*ALL PARAGRAPHS WERE INSERTED INTO THIS CLASS FOR STYLING*/
+		text-align: center;
+		margin: 0;
+		color: white;
+		font-size: 120%;
+	}
+
+.hover { /*REMOVES THE UNDERLINE OF ALL ANCHOR TAGS*/
+		text-decoration: none;
+	}
+	
+#navbar a:hover { /*HOVER EFFECT ON HOME, ABOUT US, BOOK NOW AND GALLERY LINKS*/
+    color: #fff;
+	box-shadow: inset 100px 0 0 0 #54c0d6;
+}
+
+#navbar { /*STYLING THE NAVBAR DIV*/
+		width:100%;
+		height:15vh;
+		background-color: #79b5b3; /*COLOR FOR NAV BARS*/
+		box-shadow: 0 2px 4px 0 rgba(4,4,6,4);/*For shadow effect*/
+	}
+	
+	#logo{ /*STYLING DIV CONTAINING LOGO IMAGE*/
+		width: 30vh;
+		height: auto;
+		float: left;
+		margin-left: 50px;
+	}
+	
+#gallery_button,#book_now_button,#about_us_button,#home_button{
+	width: 10%;
+	padding: 5px;
+	margin-top: 2.5%;
+	float: right;
+}
+
+		#gallery_text{ /*ACTUAL TEXT FOR GALLERY HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+		#book_now_text{ /*ACTUAL TEXT FOR BOOK NOW HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+		#about_us_text{ /*ACTUAL TEXT FOR ABOUT US HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+		#home_text{  /*ACTUAL TEXT FOR HOME HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+
+#heading1 { /*DIV WITH LANDSCAPE PICTURE*/
+		/*width:100%;
+		height:400px;
+		position: relative;*/
+		width:100%;
+		height:500px;
+		margin-top: .25%;
+		background-image: url("../images/jbgimage.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		/*background-color: #afccd0; /*COLOR FOR THE MAIN DIV*/*
+		position: relative;
+		
+	}
+		
+
+#heading2 { /*DIV WITH WELCOME HEADING/TEXT*/
+	width:100%;
+	height:200px;
+	background-color: #9ac5db; 
+	padding-top: 2%;
+	}
+
+	#h1{
+		margin-top: -30%;
+		color: white;
+		font-size: 400%;
+	}
+
+	#h2{
+		margin-top: 30%;
+	}
+
+#container { /*CONTAINER FOR COUNTRY DIVS*/
+	width:100%;
+	height: 550px;
+	background-color: #9ac5db;
+	
+}
+.countries { /*STYLING DIV/IMG OF COUNTRIES ON HOME PAGE*/
+		width: 31%;
+		height: 50%;
+		float: left;
+		margin: 1%;
+	}
+	
+.countries:hover{ /*ADDING EFFECT ON COUNTRIES' PICTURES*/
+	box-shadow: 0 0 5px 1px rgba(0, 140, 186, 0.5);
+}
+
+#footer { /*FOOTER DIV*/
+	width:100%;
+	height:160px;
+	clear: both;
+	background-color: #79b5b3;
+}
+	#section1 { /*STYLING LEFT SIDE OF FOOTR*/
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+	
+	#section2 { /*STYLING RIGHT SIDE OF FOOTR*/
+		width: 50%;
+		height: 100%;
+		float: right;
+	}
+	
+	.fmain{
+		font-size: 120%;
+		color: black;
+		margin-left: 40%;
+	}
+
+.fsame { /*CLASS TO EDIT CONTACT US TEXT*/
+	margin: 0;
+	color: black;
+	text-align: center;
+	margin-top: 1%;
+}
+	
+.socialmediaimg { /*STYLING SOCIAL MEDIA ICONS*/
+	width: 7%;
+	height: 30%;
+}
+	.left {
+		margin-left: 35%;
+		margin-top:2%;
+	}
+	
+#copyright{ /*CLASS TO EDIT COPYRIGHT TEXT*/
+	color: black; 
+	font-size: 100%;
+	text-align: center;
+}
+
+.countries { /* PART 1 OF TOOLTIP STYLING ON HOME PAGE*/
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.countries .tooltiptext { /* PART 2 OF TOOLTIP STYLING ON HOME PAGE*/
+  visibility: hidden;
+  width: 120px;
+  background-color: #075f73;
+  color: #FFF5EE;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px 0;
+
+  /* Position the tooltip */ 
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 36%;
+}
+
+.countries:hover .tooltiptext { /* PART 3 OF TOOLTIP STYLING ON HOME PAGE*/
+  visibility: visible;
+}
