@@ -1,0 +1,345 @@
+/*----------------------HOME PAGE----------------------*/
+
+#h1, #h2 { /*STYLING H1 AND H2*/
+		text-align: center;
+		margin: 2%;
+		color: #132275; 
+		font-family: fantasy;
+		}
+	
+
+.img { /*ALL IMAGES ON HOME PAGE WERE INSERTED INTO THIS CLASS TO FIT IMAGES INSIDE DIVS*/
+		width:100%;
+		height:100%;
+		border-radius: 15px;
+	}
+	
+.p {/*ALL PARAGRAPHS WERE INSERTED INTO THIS CLASS FOR STYLING*/
+		text-align: center;
+		margin: 0;
+		color: #132275;
+		font-size: 120%;
+		font-family: fantasy;
+	}
+
+.hover { /*REMOVES THE UNDERLINE OF ALL ANCHOR TAGS*/
+	text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #8B4513;
+    text-decoration: underline;
+    transition: all 0.7s;
+}
+
+#navbar { /*STYLING THE NAVBAR DIV*/
+		width:100%;
+		height:120px;
+		background-color: #ffd780; /*COLOR FOR NAV BARS*/
+		background-image: url("../images/golden.png");
+		background-size: cover;
+		
+		background-position: center;
+		border-radius: 10px
+		}
+	
+	#logo{ /*STYLING DIV CONTAINING LOGO IMAGE*/
+		width: 130px;
+		height: 130px;
+		float: right;
+		margin-right: 48%;
+	}
+	
+#home_button { /*DIV CONTAINING HIPERLINK TEXT TO HOME PAGE*/
+	width: 60px;
+	height: 30px;
+	float: left;
+	margin-top: 50px;	
+	margin-left: 10px;
+}
+		#home_text{  /*ACTUAL TEXT FOR HOME HYPERLINK*/
+			color: #132275;
+			text-align: center;
+			font-family: Verdana, sans-serif;
+		}
+		
+#about_us_button { /*DIV CONTAINING HIPERLINK TEXT TO ABOUT US PAGE*/
+		width: 100px;
+		height: 30px;
+		float: left;
+		margin-top: 50px;	
+		margin-left: 10px;
+	}
+		#about_us_text{ /*ACTUAL TEXT FOR ABOUT US HYPERLINK*/
+			color: #132275;
+			text-align: center;
+			font-family: Verdana, sans-serif;
+		}
+		
+#book_now_button { /*DIV CONTAINING HIPERLINK TEXT TO BOOK NOW PAGE*/
+		width: 100px;
+		height: 30px;
+		float: left;
+		margin-top: 50px;	
+		margin-left: 10px;
+	}
+		#book_now_text{ /*ACTUAL TEXT FOR BOOK NOW HYPERLINK*/
+			color: #132275;
+			text-align: center;
+			font-family: Verdana, sans-serif;
+		}
+		
+#gallery_button {  /*STYLING DIV CONTAINING HIPERLINK TEXT TO GALLERY PAGE*/
+		width: 90px;
+		height: 30px;
+		float: left;
+		margin-top: 50px;	
+		margin-left: 10px;
+	}
+		#gallery_text{ /*ACTUAL TEXT FOR GALLERY HYPERLINK*/
+			color: #132275;
+			text-align: center;
+			font-family: Verdana, sans-serif;
+		}
+	
+#heading1 { /*DIV WITH LANDSCAPE PICTURE*/
+		width:100%;
+		height:400px;
+		position: relative;
+		background-color: #fff3d9;
+		background-image: url("../images/travel_indvidual.png");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		}
+		
+
+#heading2 { /*DIV WITH WELCOME HEADING/TEXT*/
+	width:100%;
+	height:200px;
+	background-color: #fff3d9;
+	padding-top: 2%;
+	}
+
+#container { /*CONTAINER FOR COUNTRY DIVS*/
+	width:100%;
+	height: 500px;
+	background-color: #fff3d9;
+}
+.countries { /*STYLING DIV/IMG OF COUNTRIES ON HOME PAGE*/
+		width: 31%;
+		height: 55%;
+		float: left;
+		margin: 1%;
+	}
+	
+#footer { /*FOOTER DIV*/
+	width:100%;
+	height:150px;
+	clear: both;
+	background-color: #ffcc5e;
+	background-image: url("../images/golden.png");
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px
+}
+	#section1 { /*STYLING LEFT SIDE OF FOOTR*/
+		width: 50%;
+		height: 100%;
+		float: left;
+		margin-top: 1%;
+	}
+	
+	#section2 { /*STYLING RIGHT SIDE OF FOOTR*/
+		width: 50%;
+		height: 100%;
+		float: right;
+		margin-top: 1%;
+	}
+
+.contact_us { /*CLASS TO EDIT CONTACT US TEXT*/
+	margin: 0;
+	color: #132275;
+	font-size: 120%;
+	text-align: center;
+	}
+
+.socialmediaimg { /*STYLING SOCIAL MEDIA ICONS*/
+	width: 7%;
+	height: 30%;
+	}
+	.left {
+		margin-left: 35%;
+		margin-top:2%;
+	}
+
+#copyright{ /*CLASS TO EDIT COPYRIGHT TEXT*/
+	color: #132275; 
+	font-size: 120%;
+	text-align: center;
+	
+}
+
+.countries { /* PART 1 OF TOOLTIP STYLING ON HOME PAGE*/
+  position: relative;
+  display: inline-block;
+  }
+
+.countries .tooltiptext { /* PART 2 OF TOOLTIP STYLING ON HOME PAGE*/
+  visibility: hidden;
+  width: 95px;
+  background-color: #B8860B;
+  color: #075f73;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  padding: 4px 0;
+  opacity: 0.8;
+  
+
+  /* Position the tooltip */ 
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 36%;
+}
+
+.countries:hover .tooltiptext { /* PART 3 OF TOOLTIP STYLING ON HOME PAGE*/
+  visibility: visible;
+}
+
+/*--------------------NOTHING BELOW THIS AREA--------------------*/		
+/*--------------------------MEDIA Q------------------------------*/
+
+@media screen and (max-width:1000px) {
+    
+	 #heading1 { /*RESIZING H1*/
+		width:100%;
+		height:250px;
+	}
+	
+.countries { /*RESIZING DIV/IMAGES OF COUNTRIES ON HOME PAGE*/
+		clear: both;
+        width: 40%;
+		height: 30%;
+		margin-left: 25%;
+	
+	}
+	
+.socialmediaimg { /*RESIZING SOCIAL MEDIA ICONS ON HOME PAGE*/
+	width: 10%;
+	height: 21%;
+}
+	.left{ /*CENTRALIZE SOCIAL MEDIA ICONS BY CREATING SPACE ON THE LEFT SIDE*/
+		margin-left: 28%;
+		margin-top: 5%;
+	}
+	
+.contact_us { /*RESIZING CONTAC US TEXT*/
+	font-size: 100%;
+	margin-top: 2%;
+	}
+	
+#copyright{ /*RESIZING COPYRIGHT TEXT*/
+		font-size: 100%;
+	}
+}
+
+@media screen and (max-width:800px) {
+  	
+.countries { /*RESIZING DIV/IMAGES OF COUNTRIES ON HOME PAGE*/
+		clear: both;
+        width: 50%;
+		height: 30%;
+		margin-left: 20%;
+	
+	}
+	
+.socialmediaimg { /*RESIZING SOCIAL MEDIA ICONS ON HOME PAGE*/
+	width: 13%;
+	height: 21%;
+}
+	.left{ /*CENTRALIZE SOCIAL MEDIA ICONS BY CREATING SPACE ON THE LEFT SIDE*/
+		margin-left: 20%;
+		margin-top: 5%;
+	}
+	
+.contact_us { /*RESIZING CONTAC US TEXT*/
+	font-size: 100%;
+	margin-top: 2%;
+	}
+	
+#copyright{ /*RESIZING COPYRIGHT TEXT*/
+		font-size: 100%;
+	}
+}
+
+@media screen and (max-width:680px) {
+#heading1 { /*RESIZING DIV WITH LANDSCAPE PICTURE ON HOME PAGE*/
+	width:100%;
+	height:210px;
+}
+
+#heading2 { /*RESIZING DIV WITH WELCOME TEXT ON HOME PAGE*/
+		height:150px;
+	}
+.countries { /*RESIZING DIV/IMAGES OF COUNTRIES ON HOME PAGE*/
+		clear: both;
+        width: 60%;
+		height: 31%;
+		margin-left: 20%;
+	
+	}
+	
+#gallery_button, #book_now_button, #about_us_button{ /*RESIZING GALLERY, ABOUT US AND BOOK NOW LINKS*/
+		width: 80px;
+		height: 30px;
+		margin-left: 0;
+}
+
+#home_button { /*RESIZING HOME LINK*/
+	width: 60px;
+}
+
+	
+.hover {/*RESIZING HOME, ABOUT US, BOOK NOW AND GALLERY LINKS ON HOME PAGE*/
+	font-size: 70%;
+	}
+
+#h1 {/*RESIZING H1 .p { /*RESIZING PARAGRAPHS ON HOME PAGE*/
+	margin-top:5%;
+	font-size: 150%;
+}
+
+#h2 { /*RESIZING H2 .p { /*RESIZING PARAGRAPHS ON HOME PAGE*/
+		margin-top:5%;
+		font-size: 105%;
+	}
+	
+.p { /*RESIZING PARAGRAPHS ON HOME PAGE*/
+	margin-top: 5%;
+	font-size: 90%;
+}
+
+.socialmediaimg { /*RESIZING SOCIAL MEDIA ICONS ON HOME PAGE*/
+	width: 15%;
+	height: 21%;
+}
+	.left{ /*CENTRALIZE SOCIAL MEDIA ICONS BY CREATING SPACE ON THE LEFT SIDE*/
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+	
+.contact_us { /*RESIZING CONTAC US TEXT*/
+	font-size: 100%;
+	margin-top: 3%;
+	}
+	
+#copyright{ /*RESIZING COPYRIGHT TEXT*/
+		font-size: 100%;
+	}
+
+.countries .tooltiptext { /* POSITIONING TOOLTIP ON HOME PAGE*/
+  top: 0%;
+  left: 28%;
+}
+}

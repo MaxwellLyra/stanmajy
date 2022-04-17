@@ -1,0 +1,414 @@
+
+/*
+COLOR PALETTE:
+	Text (standard): #b5aa62
+		2nd option for hover over action (snow white): #FFFAFA
+		3rd color to be used when page is accessed (green): #678b50 --------------- NOT IN USE -------------------
+		Nav Bar and Footer: #075f73
+	Main divs: #FFF5EE
+	Other options:
+		Light blue: #a1b7bb
+		Dark green: #678b50
+		Light green: a0ba92
+		Dark brown: 8b8468
+	
+*/
+
+/*----------------------HOME PAGE----------------------*/
+
+#h1, #h2 { /*STYLING H1 AND H2*/
+		text-align: center;
+		margin: 2%;
+		color: blueviolet; 
+		}
+	
+
+.img { /*ALL IMAGES ON HOME PAGE WERE INSERTED INTO THIS CLASS TO FIT IMAGES INSIDE DIVS*/
+		width:100%;
+		height:100%;
+	}
+	
+.p {/*ALL PARAGRAPHS WERE INSERTED INTO THIS CLASS FOR STYLING*/
+		text-align: center;
+		margin: 0;
+		color: #b5aa62;
+		font-size: 120%;
+	}
+
+.hover { /*REMOVES THE UNDERLINE OF ALL ANCHOR TAGS*/
+		text-decoration: none;
+	}
+	
+#navbar a:hover { /*HOVER EFFECT ON HOME, ABOUT US, BOOK NOW AND GALLERY LINKS*/
+    color: #fff;
+	box-shadow: inset 100px 0 0 0 #54c0d6;
+}
+
+#navbar { /*STYLING THE NAVBAR DIV*/
+		width:100%;
+		height:100px;
+		background-color: #734207; /*COLOR FOR NAV BARS*/
+	}
+	
+	#logo{ /*STYLING DIV CONTAINING LOGO IMAGE*/
+		width: 120px;
+		height: 100px;
+		float: left;
+		margin: 0 auto;
+	}
+			
+	#gallery_button {  /*STYLING DIV CONTAINING HIPERLINK TEXT TO GALLERY PAGE*/
+		width: 90px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+		#gallery_text{ /*ACTUAL TEXT FOR GALLERY HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+	#book_now_button { /*DIV CONTAINING HIPERLINK TEXT TO BOOK NOW PAGE*/
+		width: 100px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+		#book_now_text{ /*ACTUAL TEXT FOR BOOK NOW HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+	#about_us_button { /*DIV CONTAINING HIPERLINK TEXT TO ABOUT US PAGE*/
+		width: 100px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+		#about_us_text{ /*ACTUAL TEXT FOR ABOUT US HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+	#home_button { /*DIV CONTAINING HIPERLINK TEXT TO HOME PAGE*/
+		width: 60px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+		#home_text{  /*ACTUAL TEXT FOR HOME HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+
+#heading1 { /*DIV WITH LANDSCAPE PICTURE*/
+		width:100%;
+		height:400px;
+		position: relative;
+		}
+		
+
+#heading2 { /*DIV WITH WELCOME HEADING/TEXT*/
+	width:100%;
+	height:200px;
+	background-color: #FFF5EE; 
+	padding-top: 2%;
+	}
+
+#container { /*CONTAINER FOR COUNTRY DIVS*/
+	width:100%;
+	height: 500px;
+	background-color: #FFF5EE;
+}
+.countries { /*STYLING DIV/IMG OF COUNTRIES ON HOME PAGE*/
+		width: 31%;
+		height: 50%;
+		float: left;
+		margin: 1%;
+		background-color: #678B50;
+	}
+	
+.countries:hover{ /*ADDING EFFECT ON COUNTRIES' PICTURES*/
+	box-shadow: 0 0 5px 1px rgba(0, 140, 186, 0.5);
+}
+/*
+.marquee-div {
+  display: flex;
+  width: 100%;
+  animation: scrolling 17s linear infinite;
+}
+
+.marquee-pic {
+  flex: 0 0 16vw;
+  margin: 0 1vw;
+
+}
+
+.marquee-pic img {
+  display: block;
+  width: 100%;
+
+}
+
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translatex(-144vw); }
+}
+*/
+
+#footer { /*FOOTER DIV*/
+	width:100%;
+	height:150px;
+	clear: both;
+	background-color: #075f73;
+}
+
+.contact_us { /*CLASS TO EDIT CONTACT US TEXT*/
+	margin: 0;
+	color: #b5aa62;
+	font-size: 120%;
+	text-align: left;
+	}
+
+.socialmediaimg { /*STYLING SOCIAL MEDIA ICONS*/
+	width: 3%;
+	height: 21%;
+	
+}
+
+#copyright{ /*CLASS TO EDIT COPYRIGHT TEXT*/
+	color: #b5aa62; 
+	font-size: 120%;
+	text-align: center;
+	
+}
+	
+/*--------------------------ABOUT US PAGE--------------------------*/
+	
+#maxdiv1 {/*STYLING HEADING DIV ON ABOUT US PAGE*/
+		width:100%;
+		height:350px;
+		float: left;
+		background-color: #FFF5EE;
+	}
+	
+.maxaup { /*STYLING PARAGRAPHS ON ABOUT US*/
+	text-align: center;
+	margin: 1%;
+	color: #b5aa62;
+	font-size: 120%;
+}
+
+#maxdivpic1 { /*STYLING DIV CONTAINER FOR PICTURES ON ABOUT US PAGE*/
+		width:100%;
+		height:300px;
+		float: left;
+		padding-left: 10%;
+		background-color: #FFF5EE;
+	}
+	
+	.maximg { /*ALL IMAGES WERE INSERTED INTO THIS CLASS TO FIT IMAGES INSIDE DIVS*/
+		width:80%;
+		height:100%;
+	}
+
+#maxdiv1_1 { /*STYLING EMPTY DI*/
+		width:100%;
+		height:90px;
+		float: left;
+		background-color: #FFF5EE;
+	}
+
+/*--------------------------BRAZIL PAGE--------------------------*/
+		
+#maxdiv2 { /*STYLING DIV OF TEXT ON BRAZIL PAGE*/
+		width:100%;
+		height:100px;
+		background-color: #FFF5EE;
+		padding-top: 2%;
+		}
+		
+.maxdivpics { /*STYLING DIVS OF PICTURES ON BRAZIL PAGE*/
+		width:30%;
+		height:200px;
+		float: left;
+		background-color: #FFF5EE;
+		}
+		
+.maxdivtext { /*STYLING DIV OF TEXT ON BRAZIL PAGE*/
+		width:70%;
+		height:200px;
+		float: left;
+		background-color: #FFF5EE;
+		}
+	
+.maxpics { /*STYLING PICTURES ON BRAZIL PAGE*/
+	height: 95%;
+	width: 70%;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+.maxp { /*STYLING PARAGRAPHS ON BRAZIL PAGE*/
+		text-align: center;
+		margin-top: 7%;
+		color: #b5aa62;
+		font-size: 120%;
+	}
+	
+#maxh1 { /*STYLING H1 ON BRAZIL PAGE*/
+	text-align: center;
+	margin: 2%;
+	color: #b5aa62;
+}
+/*--------------------NOTHING BELOW THIS AREA--------------------*/		
+/*--------------------------MEDIA Q------------------------------*/
+
+@media screen and (max-width:1000px) {
+    
+	 #heading1 { /*RESIZING H1*/
+		width:100%;
+		height:250px;
+	}
+	
+.countries { /*RESIZING DIV/IMAGES OF COUNTRIES ON HOME PAGE*/
+		clear: both;
+        width: 40%;
+		height: 30%;
+		margin-left: 25%;
+	
+	}
+	
+/* ----- MAX PAGE -----*/
+.maxpics { /*RESIZING PICTURES OF BRAZIL PAGE*/
+	height: 90%;
+	width: 80%;
+	margin-top: 3%;
+	margin-left: 8%;
+}
+
+.maxp { /*RESIZING PARAGRAPHS OF BRAZIL PAGE*/
+		text-align: center;
+		margin-top: 10%;
+		color: #b5aa62; 
+		font-size: 110%;
+	}
+}
+
+@media screen and (max-width:800px) {
+  	
+.countries { /*RESIZING DIV/IMAGES OF COUNTRIES ON HOME PAGE*/
+		clear: both;
+        width: 50%;
+		height: 30%;
+		margin-left: 20%;
+	
+	}
+
+/* ----- MAX PAGE -----*/	
+	.maxpics { /*RESIZING PICTURES OF BRAZIL PAGE*/
+		height: 80%;
+		width: 90%;
+		margin-left: 5%;
+		margin-top:8%
+	}
+
+	.maxp { /*RESIZING PARAGRAPHS OF BRAZIL PAGE*/
+			text-align: center;
+			margin-top: 15%;
+			color: #b5aa62; /
+			font-size: 100%;
+		}
+
+}
+
+@media screen and (max-width:680px) {
+#heading1 { /*RESIZING DIV WITH LANDSCAPE PICTURE ON HOME PAGE*/
+	width:100%;
+	height:210px;
+}
+
+#heading2 { /*RESIZING DIV WITH WELCOME TEXT ON HOME PAGE*/
+		height:150px;
+	}
+.countries { /*RESIZING DIV/IMAGES OF COUNTRIES ON HOME PAGE*/
+		clear: both;
+        width: 60%;
+		height: 31%;
+		margin-left: 20%;
+	
+	}
+	
+#gallery_button, #book_now_button, #about_us_button{ /*RESIZING GALLERY, ABOUT US AND BOOK NOW LINKS*/
+		width: 80px;
+		height: 30px;
+		margin-left: 0;
+}
+
+#home_button { /*RESIZING HOME LINK*/
+	width: 60px;
+}
+
+	
+.hover {/*RESIZING HOME, ABOUT US, BOOK NOW AND GALLERY LINKS ON HOME PAGE*/
+	font-size: 70%;
+	}
+
+#h1 {/*RESIZING H1 .p { /*RESIZING PARAGRAPHS ON HOME PAGE*/
+*/
+	margin-top:5%;
+	font-size: 150%;
+}
+
+#h2 { /*RESIZING H2 .p { /*RESIZING PARAGRAPHS ON HOME PAGE*/
+*/
+		margin-top:5%;
+		font-size: 105%;
+	}
+	
+.p { /*RESIZING PARAGRAPHS ON HOME PAGE*/
+	margin-top: 5%;
+	font-size: 90%;
+}
+
+.socialmediaimg { /*RESIZING SOCIAL MEDIA ICONS ON HOME PAGE*/
+	width: 3%;
+	height: 21%;
+}
+	
+	
+/* ----------------- MAX PAGE ----------------------*/
+.maxpics { /*RESIZING IMAGES ON BRAZIL PAGE*/
+	height: 55%;
+	width:90%;
+	margin-left: 5%;
+	margin-top:25%
+}
+
+.maxp { /*RESIZING DPARAGRAPHS ON BRAZIL PAGE*/
+		text-align: center;
+		color: #b5aa62; 
+		font-size: 80%;
+		margin-top: 13%;
+		}
+
+#maxdiv2 { /*RESIZING DIV W/ WELCOME TO BRAZIL TEXT*/
+		width:100%;
+		height:50px;
+}
+
+.maxdivpics .maxdivtext{ /*RESIZING DIVS OF IMAGE AND DIVS OF TEXT ON BRAZIL PAGE*/
+		height:120px;
+		}
+	
+#maxh1 { /*RESIZING H1 ON BRAZIL PAGE*/
+		margin-top:5%;
+		font-size: 150%;
+	}
+
+	

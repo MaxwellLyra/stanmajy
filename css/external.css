@@ -1,0 +1,1120 @@
+
+/*
+COLOR PALETTE:
+	Text (standard): #b5aa62
+		2nd option for hover over action (snow white): #FFFAFA
+		3rd color to be used when page is accessed (green): #678b50 --------------- NOT IN USE -------------------
+		Nav Bar and Footer: #075f73
+	Main divs: #FFF5EE
+	Other options:
+		Light blue: #a1b7bb
+		Dark green: #678b50
+		Light green: a0ba92
+		Dark brown: 8b8468
+	
+*/
+
+
+
+/*----------------------HOME PAGE----------------------*/
+a:visited{
+	color:#678b50;
+}
+
+#h1, #h2 { /*STYLING H1 AND H2*/
+		text-align: center;
+		margin: 2%;
+		color: #b5aa62; 
+		}
+	
+
+.img { /*ALL IMAGES ON HOME PAGE WERE INSERTED INTO THIS CLASS TO FIT IMAGES INSIDE DIVS*/
+		width:100%;
+		height:100%;
+	}
+	
+.p {/*ALL PARAGRAPHS WERE INSERTED INTO THIS CLASS FOR STYLING*/
+		text-align: center;
+		margin: 0;
+		color: #b5aa62;
+		font-size: 120%;
+	}
+
+.hover { /*REMOVES THE UNDERLINE OF ALL ANCHOR TAGS*/
+		text-decoration: none;
+	}
+	
+#navbar a:hover { /*HOVER EFFECT ON HOME, ABOUT US, BOOK NOW AND GALLERY LINKS*/
+    color: #fff;
+	box-shadow: inset 100px 0 0 0 #54c0d6;
+}
+
+#navbar { /*STYLING THE NAVBAR DIV*/
+		width:100%;
+		height:100px;
+		background-color: #075f73; /*COLOR FOR NAV BARS*/
+	}
+	
+	#logo{ /*STYLING DIV CONTAINING LOGO IMAGE*/
+		width: 120px;
+		height: 100px;
+		float: left;
+		margin: 0 auto;
+	}
+			
+	#gallery_button {  /*STYLING DIV CONTAINING HIPERLINK TEXT TO GALLERY PAGE*/
+		width: 90px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+		#gallery_text{ /*ACTUAL TEXT FOR GALLERY HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+	#book_now_button { /*DIV CONTAINING HIPERLINK TEXT TO BOOK NOW PAGE*/
+		width: 100px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+		#book_now_text{ /*ACTUAL TEXT FOR BOOK NOW HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+	#about_us_button { /*DIV CONTAINING HIPERLINK TEXT TO ABOUT US PAGE*/
+		width: 100px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+		#about_us_text{ /*ACTUAL TEXT FOR ABOUT US HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+	#home_button { /*DIV CONTAINING HIPERLINK TEXT TO HOME PAGE*/
+		width: 60px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+		#home_text{  /*ACTUAL TEXT FOR HOME HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+
+#heading1 { /*DIV WITH LANDSCAPE PICTURE*/
+		width:100%;
+		height:400px;
+		position: relative;
+		width:100%;
+		height:400px;
+		position: relative;
+		background-image: url("../images/travel2.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		}
+		
+
+#heading2 { /*DIV WITH WELCOME HEADING/TEXT*/
+	width:100%;
+	height:200px;
+	background-color: #afccd0; 
+	padding-top: 2%;
+	}
+
+#container { /*CONTAINER FOR COUNTRY DIVS*/
+	width:100%;
+	height: 550px;
+	background-color: #afccd0;
+	
+}
+.countries { /*STYLING DIV/IMG OF COUNTRIES ON HOME PAGE*/
+		width: 31%;
+		height: 50%;
+		float: left;
+		margin: 1%;
+	}
+	
+.countries:hover{ /*ADDING EFFECT ON COUNTRIES' PICTURES*/
+	box-shadow: 0 0 5px 1px rgba(0, 140, 186, 0.5);
+}
+
+#footer { /*FOOTER DIV*/
+	width:100%;
+	height:150px;
+	clear: both;
+	background-color: #075f73;
+}
+	#section1 { /*STYLING LEFT SIDE OF FOOTR*/
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+	
+	#section2 { /*STYLING RIGHT SIDE OF FOOTR*/
+		width: 50%;
+		height: 100%;
+		float: right;
+	}
+	
+.contact_us { /*CLASS TO EDIT CONTACT US TEXT*/
+	margin: 0;
+	color: #b5aa62;
+	font-size: 120%;
+	text-align: center;
+	margin-top: 1%;
+}
+	
+.socialmediaimg { /*STYLING SOCIAL MEDIA ICONS*/
+	width: 7%;
+	height: 30%;
+}
+	.left {
+		margin-left: 35%;
+		margin-top:2%;
+	}
+	
+#copyright{ /*CLASS TO EDIT COPYRIGHT TEXT*/
+	color: #b5aa62; 
+	font-size: 120%;
+	text-align: center;
+}
+
+.countries { /* PART 1 OF TOOLTIP STYLING ON HOME PAGE*/
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.countries .tooltiptext { /* PART 2 OF TOOLTIP STYLING ON HOME PAGE*/
+  visibility: hidden;
+  width: 120px;
+  background-color: #075f73;
+  color: #FFF5EE;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px 0;
+
+  /* Position the tooltip */ 
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 36%;
+}
+
+.countries:hover .tooltiptext { /* PART 3 OF TOOLTIP STYLING ON HOME PAGE*/
+  visibility: visible;
+}
+
+	
+/*--------------------------ABOUT US PAGE--------------------------*/
+	
+#maxdiv1 {/*STYLING HEADING DIV ON ABOUT US PAGE*/
+		width:100%;
+		height:350px;
+		float: left;
+		background-color: #afccd0;
+	}
+	
+.maxaup { /*STYLING PARAGRAPHS ON ABOUT US*/
+	text-align: center;
+	color: #b5aa62;
+	font-size: 110%;
+}
+
+#maxdivpic1 { /*STYLING DIV CONTAINER FOR PICTURES ON ABOUT US PAGE*/
+		width:100%;
+		height:300px;
+		float: left;
+		background-color: #afccd0;
+		}
+	
+.maximg { /*STYLING LADSCAPE IMAGE ON ABOUT US PAGE*/
+		width:80%;
+		height:90%;
+		margin-left:10%;
+	}
+
+#maxdiv1_1 { /*STYLING EMPTY DIV TO CREATE SPACE*/
+		width:100%;
+		height:250px;
+		float: left;
+		background-color: #afccd0;
+		}
+
+	#max_about_us_left{
+		width: 20%;
+		height: 100%;
+		float: left;
+		padding-left: 25%;
+		}
+	
+	#max_about_us_middle{
+		width: 20%;
+		height: 100%;
+		float: left;
+		}
+		
+	#max_about_us_right{
+		width: 20%;
+		height: 100%;
+		float: left;
+		}
+	
+	.about_us_pics {
+		height: 50%;
+		width: auto;
+		}
+	
+	.about_us_names{
+		color: #b5aa62;
+		font-size: 100%;
+	}
+/*--------------------------BRAZIL PAGE--------------------------*/
+#maxdiv2 { /*STYLING DIV OF TEXT ON BRAZIL PAGE*/
+		width:100%;
+		height:100px;
+		background-color: #afccd0;
+		padding-top: 2%;
+		background-image: url("../images/welcome.jpg");
+		background-size: cover;
+		background-repeat: no repeat;
+		background-position: center;
+		height: 80vh;
+		}
+		
+.maxdivpics { /*STYLING DIVS OF PICTURES ON BRAZIL PAGE*/
+		width:30%;
+		height:200px;
+		float: left;
+		background-color: #afccd0;
+		}
+		
+.maxdivtext { /*STYLING DIV OF TEXT ON BRAZIL PAGE*/
+		width:70%;
+		height:200px;
+		float: left;
+		background-color: #afccd0;
+	}
+	
+.maxpics { /*STYLING PICTURES ON BRAZIL PAGE*/
+	height: 95%;
+	width: 70%;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+.maxp { /*STYLING PARAGRAPHS ON BRAZIL PAGE*/
+		text-align: center;
+		margin-top: 7%;
+		color: #b5aa62;
+		font-size: 120%;
+		margin-right: 8%;
+	}
+	
+#maxh1 { /*STYLING H1 ON BRAZIL PAGE*/
+	text-align: center;
+	margin: 2%;
+	color: #b5aa62;
+}
+
+
+/*--------------------NOTHING BELOW THIS AREA--------------------*/		
+/*--------------------------MEDIA Q------------------------------*/
+
+
+@media screen and (max-width:1000px) {
+    
+	 #heading1 { /*RESIZING H1*/
+		width:100%;
+		height:250px;
+	}
+	
+.countries { /*RESIZING DIV/IMAGES OF COUNTRIES ON HOME PAGE*/
+		clear: both;
+    width: 40%;
+		height: 30%;
+		margin-left: 25%;
+	
+	}
+	
+.socialmediaimg { /*RESIZING SOCIAL MEDIA ICONS ON HOME PAGE*/
+	width: 10%;
+	height: 21%;
+}
+	.left{ /*CENTRALIZE SOCIAL MEDIA ICONS BY CREATING SPACE ON THE LEFT SIDE*/
+		margin-left: 28%;
+		margin-top: 5%;
+	}
+	
+.contact_us { /*RESIZING CONTAC US TEXT*/
+	font-size: 100%;
+	margin-top: 2%;
+	}
+	
+#copyright{ /*RESIZING COPYRIGHT TEXT*/
+		font-size: 100%;
+	}
+	
+/* ----- MAX PAGE -----*/
+.maxpics { /*RESIZING PICTURES OF BRAZIL PAGE*/
+	height: 90%;
+	width: 80%;
+	margin-top: 3%;
+	margin-left: 8%;
+}
+
+.maxp { /*RESIZING PARAGRAPHS OF BRAZIL PAGE*/
+		text-align: center;
+		margin-top: 10%;
+		color: #b5aa62; 
+		font-size: 110%;
+	}
+	
+	.maxaup { /*STYLING PARAGRAPHS ON ABOUT US*/
+	font-size: 95%;
+	margin: 1%;
+}
+
+/*--------------MEDIA QUERY FOR INDIA AND BOOK NOW PAGE-------------*/
+.jcontainer{
+	width: 100%;
+	height: auto;
+}
+
+}
+
+@media screen and (max-width:800px) {
+  	
+.countries { /*RESIZING DIV/IMAGES OF COUNTRIES ON HOME PAGE*/
+		clear: both;
+        width: 50%;
+		height: 30%;
+		margin-left: 20%;
+	
+	}
+	
+.socialmediaimg { /*RESIZING SOCIAL MEDIA ICONS ON HOME PAGE*/
+	width: 13%;
+	height: 21%;
+}
+	.left{ /*CENTRALIZE SOCIAL MEDIA ICONS BY CREATING SPACE ON THE LEFT SIDE*/
+		margin-left: 20%;
+		margin-top: 5%;
+	}
+	
+.contact_us { /*RESIZING CONTAC US TEXT*/
+	font-size: 100%;
+	margin-top: 2%;
+	}
+	
+#copyright{ /*RESIZING COPYRIGHT TEXT*/
+		font-size: 100%;
+	}
+	
+/* ----- MAX PAGE -----*/	
+	.maxpics { /*RESIZING PICTURES OF BRAZIL PAGE*/
+		height: 80%;
+		width: 90%;
+		margin-left: 5%;
+		margin-top:8%
+	}
+
+	.maxp { /*RESIZING PARAGRAPHS OF BRAZIL PAGE*/
+			text-align: center;
+			margin-top: 10%;
+			color: #b5aa62; /
+			font-size: 100%;
+		}
+		
+.maximg {
+	width: 80%;
+	height: auto;
+}
+.maxaup { /*STYLING PARAGRAPHS ON ABOUT US*/
+	font-size: 95%;
+	margin: 1%;
+}
+
+/*--------------MEDIA QUERY FOR INDIA AND BOOK NOW PAGE-------------*/
+.jcontainer{
+	width: 100%;
+	height: auto;
+}
+
+}
+
+@media screen and (max-width:680px) {
+#heading1 { /*RESIZING DIV WITH LANDSCAPE PICTURE ON HOME PAGE*/
+	width:100%;
+	height:210px;
+}
+
+#heading2 { /*RESIZING DIV WITH WELCOME TEXT ON HOME PAGE*/
+		height:150px;
+	}
+.countries { /*RESIZING DIV/IMAGES OF COUNTRIES ON HOME PAGE*/
+		clear: both;
+        width: 60%;
+		height: 31%;
+		margin-left: 20%;
+	
+	}
+ /*----------------------------MAX------------------------*/
+.maximg {
+	width: 80%;
+	height: auto;
+}
+
+
+#gallery_button, #book_now_button, #about_us_button{ /*RESIZING GALLERY, ABOUT US AND BOOK NOW LINKS*/
+		width: 80px;
+		height: 30px;
+		margin-left: 0;
+}
+
+#home_button { /*RESIZING HOME LINK*/
+	width: 60px;
+}
+
+	
+.hover {/*RESIZING HOME, ABOUT US, BOOK NOW AND GALLERY LINKS ON HOME PAGE*/
+	font-size: 70%;
+	}
+
+#h1 {/*RESIZING H1 .p { /*RESIZING PARAGRAPHS ON HOME PAGE*/
+*/
+	margin-top:5%;
+	font-size: 150%;
+}
+
+#h2 { /*RESIZING H2 .p { /*RESIZING PARAGRAPHS ON HOME PAGE*/
+*/
+		margin-top:5%;
+		font-size: 105%;
+	}
+	
+.p { /*RESIZING PARAGRAPHS ON HOME PAGE*/
+	margin-top: 5%;
+	font-size: 90%;
+}
+
+.socialmediaimg { /*RESIZING SOCIAL MEDIA ICONS ON HOME PAGE*/
+	width: 15%;
+	height: 21%;
+}
+	.left{ /*CENTRALIZE SOCIAL MEDIA ICONS BY CREATING SPACE ON THE LEFT SIDE*/
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+	
+.contact_us { /*RESIZING CONTAC US TEXT*/
+	font-size: 100%;
+	margin-top: 3%;
+	}
+	
+#copyright{ /*RESIZING COPYRIGHT TEXT*/
+		font-size: 100%;
+	}
+
+.countries .tooltiptext { /* POSITIONING TOOLTIP ON HOME PAGE*/
+  top: 0%;
+  left: 28%;
+}
+	
+/* ----------------- MEDIA QUERY FOR MAX BRAZIL PAGE  ----------------------*/
+.maxpics { /*RESIZING IMAGES ON BRAZIL PAGE*/
+	height: 53%;
+	width:68%;
+	margin-left: 15%;
+	margin-top:25%
+}
+
+.maximg {
+	width: 80%;
+	height: auto;
+}
+
+.maxp { /*RESIZING DPARAGRAPHS ON BRAZIL PAGE*/
+		text-align: center;
+		color: #b5aa62; 
+		font-size: 70%;
+		margin-top: 12%;
+		}
+		
+.maxaup { /*STYLING PARAGRAPHS ON ABOUT US*/
+	font-size: 95%;
+	margin: 1%;
+}
+
+#maxdivpic1 {
+	height: 200px;
+}
+
+
+#maxdiv2 { /*RESIZING DIV W/ WELCOME TO BRAZIL TEXT*/
+		width:100%;
+		height:250px;
+}
+	
+#maxh1 { /*RESIZING H1 ON BRAZIL PAGE*/
+		margin-top:5%;
+		font-size: 150%;
+	}
+
+.maxdivpics { /*RESIZING DIVS OF PICTURES ON BRAZIL PAGE*/
+		width:30%;
+		height:100px;
+		}
+		
+.maxdivtext { /*RESIZING DIV OF TEXT ON BRAZIL PAGE*/
+		width:70%;
+		height:100px;
+	}
+
+#max_about_us_left{
+	padding-left: 23%;
+}
+
+/*--------------MEDIA QUERY FOR INDIA AND BOOK NOW PAGE-------------*/
+.jcontainer{
+	width: 100%;
+	height: auto;
+}
+
+}
+
+
+
+/*---------------------------CSS FOR PAGE INDIA-------------------------*/
+
+/*Container div for whole body of page*/
+.jcontainer{
+	display: grid;
+	grid-template-areas:
+	'jnavbar jnavbar jnavbar jnavbar jnavbar jnavbar'
+	'jheader jheader jheader jheader jheader jheader'
+	'jheader1 jheader1 jheader1 jheader1 jheader1 jheader1'
+	'jcontent jcontent jcontent jcontent jcontent jcontent'
+	'jcities jcities jcities jcities jcities jcities'
+	'jfooter jfooter jfooter jfooter jfooter jfooter';
+}
+
+
+/*NAVBAR*/
+.jimg { /*ALL IMAGES ON HOME PAGE WERE INSERTED INTO THIS CLASS TO FIT IMAGES INSIDE DIVS*/
+		width:100%;
+		height:100%;
+}
+
+.jhover { /*REMOVES THE UNDERLINE OF ALL ANCHOR TAGS*/
+		text-decoration: none;
+}
+	
+#jnavbar a:hover { /*HOVER EFFECT ON HOME, ABOUT US, BOOK NOW AND GALLERY LINKS*/
+    color: #fff;
+	box-shadow: inset 100px 0 0 0 #54c0d6;
+}
+
+#jnavbar{
+	grid-area: jnavbar;
+	width:100%;
+	height:100px;
+	background-color: #075f73;
+}
+
+#jlogo{ /*STYLING DIV CONTAINING LOGO IMAGE*/
+		width: 120px;
+		height: 100px;
+		float: left;
+		margin: 0 auto;
+}
+
+#jgallery_button {  /*STYLING DIV CONTAINING HIPERLINK TEXT TO GALLERY PAGE*/
+		width: 90px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+	#jgallery_text{ /*ACTUAL TEXT FOR GALLERY HYPERLINK*/
+		color: #FFF5EE;
+		text-align: center;
+	}
+	
+	#jbook_now_button { /*DIV CONTAINING HIPERLINK TEXT TO BOOK NOW PAGE*/
+		width: 100px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+	#jbook_now_text{ /*ACTUAL TEXT FOR BOOK NOW HYPERLINK*/
+		color: #FFF5EE;
+		text-align: center;
+	}
+	
+	#jabout_us_button { /*DIV CONTAINING HIPERLINK TEXT TO ABOUT US PAGE*/
+		width: 100px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+		#jabout_us_text{ /*ACTUAL TEXT FOR ABOUT US HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+	
+	#jhome_button { /*DIV CONTAINING HIPERLINK TEXT TO HOME PAGE*/
+		width: 60px;
+		height: 30px;
+		float: right;
+		margin-top: 30px;	
+		margin-left: 10px;
+	}
+		#jhome_text{  /*ACTUAL TEXT FOR HOME HYPERLINK*/
+			color: #FFF5EE;
+			text-align: center;
+		}
+
+
+
+/*Heading of page with background image*/
+.jheader{
+	grid-area: jheader;
+	background-image: url("../images/jbgimg.jpg");
+	/* Add the blur effect */
+  	filter: blur(1px);
+  	-webkit-filter: blur(1px);
+
+  	/* Center and scale the image */
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	padding: 20px;
+	height: 80vh;
+	position: relative;
+}
+
+/*Heading div for presenting heading over the bg image*/
+.jheader1{
+	grid-area: jheader1;
+  	color: #988d48;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	padding: 20px;
+	width: 50%;		
+}
+
+/*Heading INDIA*/
+.jheader1 h2{
+	font-size: 400%;
+	text-align: center;
+	margin-top: -5%;
+}
+
+/*subheading of header INDIA*/
+.jheader1 p{
+	font-family: 'My Soul', cursive;
+	margin-top: -7.5%;
+	margin-left: 55%;
+	font-size: 150%;
+}
+
+/*div containing heading and description with 4 images section*/
+.jcontent{
+	grid-area: jcontent;
+	display: grid;
+	grid-template-areas:
+	'jcontent1 jcontent1'
+	'jcontent2 jcontent3'
+	'jcontent4 jcontent5';
+	background-color: #afccd0;
+	padding: 20px;
+}
+
+/*Heading div of 4 images*/
+.jcontent1{
+	grid-area: jcontent1;
+	margin-bottom: 2%;
+}
+
+/*Heading styling for header LIVE UNFORGETTABLE EXPERIENCE*/
+.jsubhead{
+	text-align: center;
+	font-size: 200%;
+	color: #075f73;
+}
+
+/*styling of line below heading LIVE UNFORGETTABLE EXPERIENCE*/
+.jsubhead:after {
+	content: "";
+	display: block;
+	width: 5%;
+	height: 3px;
+	background: #678b50;
+	bottom: -10px;
+	position: relative;
+	left: 45%;
+	top: 20px;
+}
+
+/*description para of header LIVE UNFORGETTABLE EXPERIENCE*/
+.jpara{
+	color: #988d48;
+	width: 70%;
+	text-align: center;
+	margin-left: 13%;
+}
+
+/*Four images & their divs to represent different attractions of India*/
+.jcontent2, .jcontent3, .jcontent4, .jcontent5{
+	width: 92.5%;
+	height: auto;
+}
+
+.jcontent2{
+	grid-area: jcontent2;
+	margin-left: 8%;
+}
+
+.jcontent3{
+	grid-area: jcontent3;
+	margin-left: 1%;
+}
+
+.jcontent4{
+	grid-area: jcontent4;
+	margin-left: 8%;
+}
+
+.jcontent5{
+	grid-area: jcontent5;
+	margin-left: 1%;
+}
+
+/*Individually targeting all 4 images to set their look*/
+#jfood, #jculture{
+	width: 97.5%;
+	height: 67.5%;
+}
+
+#jactivities{
+	width: 97.5%;
+	height: 97.5%;
+	margin-top: -20%;
+}
+
+#jarchitecture{
+	width: 97.5%;
+	height: 97.5%;
+	margin-top: -19%;
+}
+
+/*adding hover effect over these 4 pics*/
+.jhover:hover{
+	box-shadow: 0 0 5px 1px rgba(0, 140, 186, 0.9);
+}
+
+/*Caption written over 4 images*/
+.jcaption{
+	width: 100%;
+	font-weight: bold;
+	font-size: 140%;
+	margin-top: -10%;
+	margin-left: 5%;
+	color: white;
+}
+
+/*MUST VISIT DESTINATION section styling starts here*/
+
+/*Container div for this section*/
+.jcities{
+	margin-top: -10%;
+	grid-area: jcities;
+	background-color: #afccd0;
+	display: grid;
+	grid-template-areas: /*dividing this div into grids*/
+	'citiesh citiesh citiesh'
+	'jslidercontainer jslidercontainer jslidercontainer';
+	text-align: center;
+}
+
+/*Heading (Must visit destination) with description div */
+.citiesh{
+	grid-area: citiesh;
+}
+
+/*container div for image slider divs*/
+.jslidercontainer{
+	grid-area: jslidercontainer;
+	width: 100%;
+	height: auto;
+	margin-bottom: 5%; /*separating slide div from footer to look good*/
+}
+
+/*Slider CSS starts here!!*/
+
+/*Container div holding all 9 divs inside for sliding*/
+#slider{
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+
+/*styling of each of 9 divs with city image, name, description*/
+.slide{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	display: none; /*first set visibility of all divs to none*/
+}
+
+/*first active div which will be visible before slides*/
+.slide.active{
+	display: block; /*setting visibility for only div with active class*/
+}
+
+/*styling of all images of slides*/
+.slider-image{
+	width: 37.5%;
+	height: auto;
+}
+
+/*styling of cities name and their description*/
+.jdesc, .jdesc1{
+	text-align: center;
+}
+
+.jdesc{
+	font-weight: bold;
+	color: #075f73;
+}
+
+.jdesc1{
+	color: #988d48;
+}
+
+/*styling of previous arrow*/
+#left-arrow{
+	position: absolute;
+	left: 30px;
+	width: 5%;
+	height: auto;
+	cursor: pointer;  /*when the cursor will go to the arrow image, show cursor*/
+	margin-top: -20%; /*to set the position of arror at center*/
+}
+
+/*styling of next arrow*/
+#right-arrow{
+	position: absolute;
+	right: 30px;
+	width: 5%;
+	height: auto;
+	cursor: pointer;
+	margin-top: -20%;
+}
+
+
+
+/*Footer of page*/
+#jfooter{
+	width:100%;
+	height:150px;
+	clear: both;
+	grid-area: jfooter;
+	background-color: #075f73;
+}
+
+#jsection1 { /*STYLING LEFT SIDE OF FOOTR*/
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+	
+	#jsection2 { /*STYLING RIGHT SIDE OF FOOTR*/
+		width: 50%;
+		height: 100%;
+		float: right;
+	}
+	
+.jcontact_us { /*CLASS TO EDIT CONTACT US TEXT*/
+	margin: 0;
+	color: #b5aa62;
+	font-size: 120%;
+	text-align: center;
+	margin-top: 1%;
+}
+	
+.jsocialmediaimg { /*STYLING SOCIAL MEDIA ICONS*/
+	width: 7%;
+	height: 30%;
+}
+	.jleft {
+		margin-left: 35%;
+		margin-top:2%;
+	}
+	
+#jcopyright{ /*CLASS TO EDIT COPYRIGHT TEXT*/
+	color: #b5aa62; 
+	font-size: 120%;
+	text-align: center;
+}
+
+
+/*--------------------------CSS FOR BOOK NOW PAGE-----------------------*/
+
+
+/*Container div for whole body of page*/
+.jbookcontainer{
+	width: 100%;
+	display: grid;
+	grid-template-areas:
+	'jnavbar jnavbar jnavbar jnavbar jnavbar jnavbar'
+	'jbookheader jbookheader jbookheader jbookheader jbookheader jbookheader'
+	'jbookcontent jbookcontent jbookcontent jbookcontent jbookcontent jbookcontent'
+	'jfooter jfooter jfooter jfooter jfooter jfooter';
+}
+
+/*Heading of page with form*/
+.jbookheader{
+	/*clear: both;*/
+	grid-area: jbookheader;
+	background-image: url("../images/booknowbg.jpg");
+
+	display: grid;
+	grid-template-areas:
+	'jbookheader1 jbookheader1 jbookheader1'
+	'jbookheader2 jbookheader2 jbookheader2';
+
+	/* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: auto;
+	padding-bottom: 10%;
+}
+
+.jbookheader1{
+	grid-area: jbookheader1;
+	width: 50%;
+	margin-left: 45%;
+	margin-top: 5%;
+}
+
+.jbooksubhead{
+	text-align: center;
+	font-size: 200%;
+	color: #988d48;
+}
+
+.jbookheader2{
+	grid-area: jbookheader2;
+	width: 30%;
+	height: auto;
+	margin-left: 67.5%;
+}
+
+/*form*/
+form{
+	width: 80%;
+	height: auto;
+}
+
+.jsection{
+	color: #988d48;
+}
+
+.jinput{
+	width: 90%;
+	border: 1px solid #075f73;
+	background: #fff;
+	padding: 8px 8px 8px 36px;
+}
+
+#fullname{
+	background: url("../images/jnamelogo.png") no-repeat #fff 8px 8px;
+}
+
+#jemail{
+	background: url("../images/jemaillogo.png") no-repeat #fff 8px 8px;
+}
+
+#jtelephone{
+	background: url("../images/jphonelogo.png") no-repeat #fff 8px 8px;
+}
+
+#jadults{
+	background: url("../images/jnumlogo.png") no-repeat #fff 8px 8px;
+}
+
+#jdate1, #jdate2{
+	background: url("../images/jdatelogo.png") no-repeat #fff 8px 8px;
+}
+
+#jcomment{
+	background: url("../images/jcommentlogo.png") no-repeat #fff 8px 8px;
+}
+
+#jdestination{
+	background: url("../images/jdestinationlogo.png") no-repeat #fff 8px 8px;
+	width: 105%;
+}
+
+.jform_footer{
+	margin-top: 2%;
+	text-align: center;
+}
+
+.jsubmit, .jcancel{
+	color: #988d48;
+	background-color: #075f73;
+}
+
+/*contents*/
+.jbookcontent{
+	grid-area: jbookcontent;
+	width: 100%;
+	height: auto;
+	background-color: #afccd0;
+	clear: both;
+	padding-bottom: 5%;
+}
+
+.jlogo1{
+ 	margin-left: 12%;
+ 	margin-top: -3%;
+ 	float: left;
+ 	width: 10%;
+ 	background-color: white;
+}
+
+.jlogo1 img{
+	width: 75%;
+  	height: auto;
+  	margin-left: 15%;
+}
+
+.jbookpara{
+  	padding: 2%;
+  	text-align: center;
+  	width: 95%;
+  	font-size: 100%;
+  	background-color: white;
+  	margin-top: -4%;
+  	margin-bottom: 15%;
+}
